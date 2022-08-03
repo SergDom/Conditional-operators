@@ -15,7 +15,7 @@ public class Main {
         int clientSystemIos = 0;
         int clientSystemAndroid = 1;
         // iOS - 0, Android =1
-        int clientDeviceYear = 2015;
+        int clientDeviceYear = 2016;
         // before 2015 - light version
 
         if (clientSystemIos == 0 && clientDeviceYear < 2015 ) {
