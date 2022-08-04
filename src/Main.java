@@ -42,6 +42,61 @@ public class Main {
             System.out.println("Срок доставки 3 дня");
         }
 
+         System.out.println("Задача 5");
 
-    }
+         int monthOfYear = 13;
+        switch (monthOfYear) {
+            case 1:
+                System.out.println("Месяц - январь");
+                System.out.print("Cезон - зима");
+                break;
+            case 2:
+                System.out.println("Месяц - февраль");
+                System.out.print("Cезон - зима");
+                break;
+            case 3:
+                System.out.println("Месяц - март");
+                System.out.print("Cезон - зима");
+                break;
+            case 4:
+                System.out.println("Месяц - апрель");
+                System.out.print("Cезон - весна");
+                break;
+            case 5:
+                System.out.println("Месяц - май");
+                System.out.print("Cезон - весна");
+                break;
+            case 6:
+                System.out.println("Месяц - июнь");
+                System.out.print("Cезон - лето");
+                break;
+            case 7:
+                System.out.println("Месяц - июль");
+                System.out.print("Cезон - лето");
+                break;
+            case 8:
+                System.out.println("Месяц - август");
+                System.out.print("Cезон - лето");
+                break;
+            case 9:
+                System.out.println("Месяц - сентябрь");
+                System.out.print("Cезон - осень");
+                break;
+            case 10:
+                System.out.println("Месяц - октябрь");
+                System.out.print("Cезон - осень");
+                break;
+            case 11:
+                System.out.println("Месяц - ноябрь");
+                System.out.print("Cезон - осень");
+                break;
+            case 12:
+                System.out.println("Месяц - декабрь");
+                System.out.print("Cезон - зима");
+                break;
+            default:
+                System.out.println("Такого месяца нет.");
+        }
+
+        }
 }
