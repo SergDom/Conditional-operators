@@ -26,6 +26,8 @@ public class Main {
         } else if (clientSystem == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите полную версию Android ");}
 
+        System.out.println("Задача 3");
+
         }
              }
 
