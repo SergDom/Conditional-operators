@@ -30,8 +30,14 @@ public class Main {
 
         System.out.println("Задача 3");
 
+        int enterYear =400;
+        if (enterYear % 4 == 0 && enterYear % 100 != 0)
+        { System.out.println (enterYear + " год является високосным"); }
+            else { System.out.println (enterYear + " год не является високосным"); }
 
-        System.out.println("Задача 4");
+
+            System.out.println("Задача 4");
+
         int deliveryDistance = 15;
         if (deliveryDistance < 20) {
             System.out.println("Срок доставки 1 день");
