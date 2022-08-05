@@ -30,15 +30,15 @@ public class Main {
 
         System.out.println("Задача 3");
 
-        int enterYear =400;
-        if (enterYear % 4 == 0 && enterYear % 100 != 0)
+        int enterYear =256;
+        if (enterYear % 4 == 0 && enterYear % 100 != 0 || (enterYear % 400 == 0))
         { System.out.println (enterYear + " год является високосным"); }
             else { System.out.println (enterYear + " год не является високосным"); }
 
 
             System.out.println("Задача 4");
 
-        int deliveryDistance = 15;
+        int deliveryDistance = 20;
         if (deliveryDistance < 20) {
             System.out.println("Срок доставки 1 день");
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
@@ -50,55 +50,43 @@ public class Main {
 
          System.out.println("Задача 5");
 
-         int monthOfYear = 13;
+         int monthOfYear = 11;
         switch (monthOfYear) {
             case 1:
-                System.out.println("Месяц - январь");
-                System.out.print("Cезон - зима");
+                System.out.println("Месяц - январь, сезон - зима");
                 break;
             case 2:
-                System.out.println("Месяц - февраль");
-                System.out.print("Cезон - зима");
+                System.out.println("Месяц - февраль, сезон - зима");
                 break;
             case 3:
-                System.out.println("Месяц - март");
-                System.out.print("Cезон - зима");
+                System.out.println("Месяц - март, сезон - весна");
                 break;
             case 4:
-                System.out.println("Месяц - апрель");
-                System.out.print("Cезон - весна");
+                System.out.println("Месяц - апрель, сезон - весна");
                 break;
             case 5:
-                System.out.println("Месяц - май");
-                System.out.print("Cезон - весна");
+                System.out.println("Месяц - май, сезон - весна");
                 break;
             case 6:
-                System.out.println("Месяц - июнь");
-                System.out.print("Cезон - лето");
+                System.out.println("Месяц - июнь, сезон - лето");
                 break;
             case 7:
-                System.out.println("Месяц - июль");
-                System.out.print("Cезон - лето");
+                System.out.println("Месяц - июль, сезон - лето");
                 break;
             case 8:
-                System.out.println("Месяц - август");
-                System.out.print("Cезон - лето");
+                System.out.println("Месяц - август, сезон - лето");
                 break;
             case 9:
-                System.out.println("Месяц - сентябрь");
-                System.out.print("Cезон - осень");
+                System.out.println("Месяц - сентябрь, cезон - осень");
                 break;
             case 10:
-                System.out.println("Месяц - октябрь");
-                System.out.print("Cезон - осень");
+                System.out.println("Месяц - октябрь, cезон - осень");
                 break;
             case 11:
-                System.out.println("Месяц - ноябрь");
-                System.out.print("Cезон - осень");
+                System.out.println("Месяц - ноябрь, cезон - осень");
                 break;
             case 12:
-                System.out.println("Месяц - декабрь");
-                System.out.print("Cезон - зима");
+                System.out.println("Месяц - декабрь , cезон - зима");
                 break;
             default:
                 System.out.println("Такого месяца нет.");
