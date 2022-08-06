@@ -92,5 +92,21 @@ public class Main {
                 System.out.println("Такого месяца нет.");
         }
 
+        System.out.println("Задача 6");
+
+        int age =23;
+        int salary =80_000;
+
+        if (age >=23 && (salary >= 50000 || salary < 80_000)) {
+            double limit1 = salary*3 + salary*1.2;
+            System.out.println("Лимит кредита при зарплате " + salary + " и возрасте" + age + " будет " + limit1); }
+        else if (age >=23 && salary >= 80_000) {
+            double limit2 = salary*3 + salary * 1.5;
+            System.out.println("Лимит кредита при зарплате " + salary + " и возрасте " + age + " будет " + limit2);
+        }
+        else { int limit3 = salary*2;
+            System.out.println("Лимит кредита при зарплате " + salary + " и возрасте " + age + " будет " + limit3); }
+
+
         }
 }
